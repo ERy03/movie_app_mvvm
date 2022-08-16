@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:movie_app_mvvm/model/movie.dart';
 import 'package:movie_app_mvvm/movie_apikey.dart';
 import 'package:http/http.dart' as http;
 
