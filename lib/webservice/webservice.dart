@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 
 class Webservice {
   Future<List<Movie>> fetchMovies(String keyword) async {
-    final url = 'http://www.omdbapi.com/?s=$keyword&apikey=$apikey';
+    final url = 'https://www.omdbapi.com/?s=$keyword&apikey=$apikey';
     final response = await http.get(Uri.parse(url));
     if (response.statusCode == 200) {
       final body = jsonDecode(response.body);
