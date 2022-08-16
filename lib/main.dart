@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app_mvvm/view/movie_list_page.dart';
 import 'package:provider/provider.dart';
 
 import 'view_model/movie_list_view_model.dart';
